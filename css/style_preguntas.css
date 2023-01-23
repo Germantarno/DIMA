@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height:100vh;
+}
+
+header{
+    height:10vh;
+}
+
+main{
+    height:80vh;
+    background-color: rgb(255, 255, 255);
+}
+
+footer {
+    height:10vh;
+    background-color: rgb(51, 51, 51);
+}
+.iconos_top {
+    text-align:right;
+    background-color: rgb(51, 51, 51);
+    position: sticky;
+    top: 0px;
+}
+
+.comprar {
+opacity:70%;
+}
+
+.preguntas{
+    font-size: 25px;
+
+}
+
+.contactos{
+    opacity:70%;
+}
+
+.tienda{
+    opacity:70%;
+}
+
+nav ul {
+    padding: 9px;
+    text-align: center;
+    background-color: rgb(51, 51, 51);
+}
+
+nav ul li {
+    display:inline-block;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 150px;
+    margin-left: 150px;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size:110%;
+}
+
+.pie {
+    display:inline-block;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.pie__ {
+    display:inline-block;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.pie_logo {
+    text-align: center;
+}
+
