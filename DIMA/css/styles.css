@@ -1,20 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height:100vh;
-
+    
 }
 
 header {
 background-image: url("../assets/images/opcion_1.png");
 background-repeat: no-repeat;
-background-size: cover;
-display:flexbox;
-background-color: rgb(51, 51, 51); 
-height: 45vh;
+background-size: cover; 
+height: 10vh;
 }
 
 .logo_inicial {
@@ -36,12 +35,12 @@ height: 45vh;
 }
 
 main{
-    height:52vh;
+    height:85vh;
     background-color: rgb(51, 51, 51);
 }
 
 footer {
-    height:3vh;
+    height:5vh;
 }
 
 nav ul {
