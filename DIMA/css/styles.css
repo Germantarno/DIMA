@@ -50,12 +50,33 @@ footer div a {
 }
 
 .carousel-inner img {
-    width: 100%;
-    max-height: 460px;
+    max-height: 800px;
+
 }
 
 .carousel-inner{
-    height: 200px;
+    height: 70%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
 
+@media screen and (min-width: 320px) {
+    body {
+    background-color: #000000;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    body {
+    background-color: #9e9e9e;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+    background-color: #fffcfc;
+    }
+}
 
