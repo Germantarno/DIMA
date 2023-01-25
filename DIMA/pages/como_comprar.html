@@ -4,35 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="shortcut_icon" href="./assets/images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/styles_comprar.css">
     <title> DIMA </title>
 </head>
 <body>
-    <header>
+    <header class="container-fluid bg-secondary row">
         
-        <div class="iconos_top">
+        <div id=" header " class=" d-flex justify-content-end align-items-end  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 h-auto p-2">
             <a target="_blank" href="https://www.google.com.ar/maps"><img src="../assets/images/ubicacion_1.png" width="40" alt="icon_ubicacion"></a>
             <a target="_blank" href="https://wa.me/543512399080"><img src="../assets/images/whatsapp_2.png" width="40" alt="icon_whatsapp"></a>
-            <img src="../assets/images/carrito.png" width="40" alt="icon_carrito">
+            <a target="_blank" href=""><img src="../assets/images/carrito.png" width="40" alt="icon_carrito"></a>
         </div>
-        <hr/>
+
             <!-- LISTA NO ORDENADA --> 
-            <nav>
-                <ul> 
-                    <li><a class="comprar" href="./como_comprar.html">¿Como comprar?</a></li>
-                    <li><a class="preguntas" href="./preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-                    <li><a class="contactos" href="./sobre_nosotros.html">Sobre nosotros</a></li>
-                    <li><a class="tienda" href="./tienda.html">Tienda</a></li>
+            <nav class="container">
+                <ul class=" d-flex text-white list-unstyled col-sm-3 col-md-6 col-lg-12 d-flex pt-2"> 
+                    <li><a class=" h5 text-decoration-none  " href="./pages/como_comprar.html">¿Como comprar?</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./pages/preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./pages/sobre_nosotros.html">Sobre nosotros</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./pages/tienda.html">Tienda</a></li>
                 </ul>
             </nav>
-            <hr/>
+    
+
 
     </header>
     
-    <main>
-<div>
-<h1 class="la_web">
+    <main class="container-fluid row justify-content-center align-items-center">
+<div class=" col-sm-3 col-md-6 col-lg-12">
+<h1 class="la_web ">
     A través de la web
 </h1>
 <h2 class="el_showroom">
@@ -40,34 +42,34 @@
 </h2>
 </div>
 
-<div>
-    <ol>
-        <li>1 – Ingresá a nuestra tienda y seleccioná el/los producto/s que querés comprar.</li>
-        <li>2 – Hacé clic en el botón de «Agregar al carrito». Esto desplegará un menú donde podrás observar tu pedido y las opciones «Ver Carrito» o «finalizar compra»</li>
-        <li>3 – En la primera podrás ver el resumen de tu pedido, mientras que en la segunda empezará el proceso de pago.</li>
-        <li>4 – Una vez que hayas seleccionado todos los productos que y como lo indica el punto anterior, deberás seleccionar la opción «finalizar compra».</li>
-        <li>5 – Serás direccionado a la página de facturación donde deberás ingresar todos los datos correspondientes.</li>
-        <li>6 – En caso de necesitar envío, aclararlo en la sección de información adicional (Nota al pie del pedido).</li>
-        <li>7 – Seleccionar la forma de pago, pudiendo elegir entre Contra reembolso o tarjeta de crédito/débito.</li>
-        <li>8 – Seleccionar la opción «realizar el pedido» y ¡Listo! Automáticamente recibirás un correo electrónico de nuestra parte donde se indicará que tu pedido a sido realizado de forma exitosa.</li>
-        <li>9 – En menos de 24 hs hábiles nos pondremos en contacto vía mail para acordar los terminos de entrega del pedido.</li>
-        <li>10 – El mail de confirmación no indica que tu pedido esté listo para ser retirado. Para poder retirar deberás recibir un mail donde se te indique que tu pedido está listo.</li>
+<div class="d-flex col-sm-3 col-md-6 col-lg-12" >
+    <ol class="parrafop">
+        <li>-Ingresá a nuestra tienda y seleccioná el/los producto/s que querés comprar.</li>
+        <li>Hacé clic en el botón de «Agregar al carrito». Esto desplegará un menú donde podrás observar tu pedido y las opciones «Ver Carrito» o «finalizar compra»</li>
+        <li>-En la primera podrás ver el resumen de tu pedido, mientras que en la segunda empezará el proceso de pago.</li>
+        <li>-Una vez que hayas seleccionado todos los productos que y como lo indica el punto anterior, deberás seleccionar la opción «finalizar compra».</li>
+        <li>-Serás direccionado a la página de facturación donde deberás ingresar todos los datos correspondientes.</li>
+        <li>-En caso de necesitar envío, aclararlo en la sección de información adicional (Nota al pie del pedido).</li>
+        <li>-Seleccionar la forma de pago, pudiendo elegir entre Contra reembolso o tarjeta de crédito/débito.</li>
+        <li>-Seleccionar la opción «realizar el pedido» y ¡Listo! Automáticamente recibirás un correo electrónico de nuestra parte donde se indicará que tu pedido a sido realizado de forma exitosa.</li>
+        <li>-En menos de 24 hs hábiles nos pondremos en contacto vía mail para acordar los terminos de entrega del pedido.</li>
+        <li>-El mail de confirmación no indica que tu pedido esté listo para ser retirado. Para poder retirar deberás recibir un mail donde se te indique que tu pedido está listo.</li>
     </ol>
 </div>
     </main>
 
-    <footer>
+    <footer id="footer" class="container-fluid row pt-5 bg-secondary ">
+        <div class=" col-sm-12 col-md-12 col-lg-12 d-flex justify-content-around ">
+            <a class="text-decoration-none " href="mailto:tarnowskigerman@gmail.com">Te leemos</a>
+            <p class="text-white">Copyright 2023 by German Tarnowski</p>
+        </div>
+
+        <div class="pie_logo justify-content-center align-items-center mb-5">
+            <img src="../assets/images/dima_logo_blanco.png" width="200" alt="logo_dima_blanco" >
+        </div>
         
-<div class="pie">
-    <a class="pie__" href="mailto:tarnowskigerman@gmail.com">Te leemos</a>
-    <p>Copyright 2022</p>
-</div>
-
-<div class="pie_logo">
-    <img src="../assets/images/dima_logo_blanco.png" width="210" alt="logo_dima_blanco">
-</div>
-
-
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html>
