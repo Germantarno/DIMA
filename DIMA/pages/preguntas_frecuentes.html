@@ -10,21 +10,21 @@
     <title> DIMA </title>
 </head>
 <body>
-    <header class="container-fluid bg-secondary row">
+    <header class="container-fluid bg-secondary row-12 ">
         
-        <div id=" header " class=" d-flex justify-content-end align-items-end  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 h-auto p-2">
+        <div id=" header " class=" d-flex justify-content-end align-items-end  col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-2">
             <a target="_blank" href="https://www.google.com.ar/maps"><img src="../assets/images/ubicacion_1.png" width="40" alt="icon_ubicacion"></a>
             <a target="_blank" href="https://wa.me/543512399080"><img src="../assets/images/whatsapp_2.png" width="40" alt="icon_whatsapp"></a>
             <a target="_blank" href=""><img src="../assets/images/carrito.png" width="40" alt="icon_carrito"></a>
         </div>
 
             <!-- LISTA NO ORDENADA --> 
-            <nav class="container">
+            <nav class="container-fluid">
                 <ul class=" d-flex text-white list-unstyled col-sm-3 col-md-6 col-lg-12 d-flex pt-2"> 
-                    <li><a class=" h5 text-decoration-none  " href="./pages/como_comprar.html">¿Como comprar?</a></li>
-                    <li><a class=" h5 text-decoration-none " href="./pages/preguntas_frecuentes.html">Preguntas frecuentes</a></li>
-                    <li><a class=" h5 text-decoration-none " href="./pages/sobre_nosotros.html">Sobre nosotros</a></li>
-                    <li><a class=" h5 text-decoration-none " href="./pages/tienda.html">Tienda</a></li>
+                    <li><a class=" h5 text-decoration-none  " href="./como_comprar.html">¿Como comprar?</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./preguntas_frecuentes.html">Preguntas frecuentes</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./sobre_nosotros.html">Sobre nosotros</a></li>
+                    <li><a class=" h5 text-decoration-none " href="./tienda.html">Tienda</a></li>
                 </ul>
             </nav>
     
@@ -32,47 +32,54 @@
 
     </header>
     
-    <main class="container-fluid row justify-content-center align-items-center">
-<div lass=" d-flex col-sm-3 col-md-6 col-lg-12">
-<h1 class="producto">
-    Sobre el producto
-</h1>
+    <main class="container-fluid row-12 justify-content-center align-items-center ">
 
-<ul class="sobre_el_producto list-unstyled">
-    <li><h3>¿Cuándo se entrega el producto?</h3></li>
-    <li><h3>¿El producto viene armado?</h3></li>
-    <li><h3>¿Tiene garantía?</h3></li>
-</ul>
-</div>
+<div class=" d-flex col-sm-3 col-md-6 col-lg-12 row pt-5">
 
-<div>
-    <h2 class="producto">
-    Métodos de pago
-    </h2>
-    <ul class="pagos__ col-sm-3 col-md-6 col-lg-12 list-unstyled">
-        <li><h3>¿Qué métodos de pago utilizan?</h3></li>
-        <li><h3>¿Acepta todas las tarjetas de crédito?</h3></li>
-        <li><h3>¿Si abono con tarjeta, tiene algún interés?</h3></li>
-        <li><h3>¿Es necesario señar el pedido?</h3></li>
+<h1 class="sobre-producto"> Sobre el producto </h1>
+<div class="btn-group p-3 " role="group">
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    </button>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">¿Cuándo se entrega el producto?</a></li>
+    <li><a class="dropdown-item" href="#">¿El producto viene armado?</a></li>
+    <li><a class="dropdown-item" href="#">¿El producto viene armado?</a></li>
     </ul>
 </div>
+</div>
 
-<div>
-    <h2 class="entregas">
-    Entrega y horarios
-    </h2>
+<div class=" d-flex col-sm-3 col-md-6 col-lg-12 row pt-5">
+    <h2 class="producto"> Métodos de pago </h2>
+    <div class="btn-group p-3" role="group">
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">¿Qué métodos de pago utilizan?</a></li>
+        <li><a class="dropdown-item" href="#">¿Acepta todas las tarjetas de crédito?</a></li>
+        <li><a class="dropdown-item" href="#">¿Si abono con tarjeta, tiene algún interés?</a></li>
+        <li><a class="dropdown-item" href="#">¿Es necesario señar el pedido?</a></li>
+        </ul>
+    </div>
+    </div>
+    
 
-    <ul class=" col-sm-3 col-md-6 col-lg-12 list-unstyled">
-        <li><h3>¿Hacen envíos a domicilio?</h3></li>
-        <li><h3>¿Hacen envíos fuera de Córdoba?</h3></li>
-        <li><h3>¿Los envíos tiene algún costo?</h3></li>
-        <li><h3>¿Cuáles son los horarios de atención?</h3></li>
-        <li><h3>¿Cuáles son los horarios de entrega de pedido?</h3></li>
+<div class="d-flex col-sm-3 col-md-6 col-lg-12 row pt-5">
+    <h2 class="entregas">Entrega y horarios</h2>
+<div class="btn-group p-3" role="group">
+    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    </button>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">¿Hacen envíos a domicilio?</a></li>
+    <li><a class="dropdown-item" href="#">¿Hacen envíos fuera de Córdoba?</a></li>
+    <li><a class="dropdown-item" href="#">¿Cuáles son los horarios de atención?</a></li>
+    <li><a class="dropdown-item" href="#">¿Los envíos tiene algún costo?</a></li>
+    <li><a class="dropdown-item" href="#">¿Cuáles son los horarios de entrega de pedido?</a></li>
     </ul>
+</div>
 </div>
     </main>
 
-    <footer id="footer" class="container-fluid row pt-5 bg-secondary ">
+    <footer id="footer" class="container-fluid row pt-5 bg-secondary  ">
         <div class=" col-sm-12 col-md-12 col-lg-12 d-flex justify-content-around ">
             <a class="text-decoration-none " href="mailto:tarnowskigerman@gmail.com">Te leemos</a>
             <p class="text-white">Copyright 2023 by German Tarnowski</p>

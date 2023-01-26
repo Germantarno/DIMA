@@ -34,7 +34,7 @@ nav ul {
 }
 
 nav ul li {
-    display:inline-block;
+    display: inline-flex;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 250px;
@@ -47,14 +47,14 @@ nav ul li a {
 }
 
 .pie {
-    display:inline-block;
+    display:inline-flex;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }
 
 .pie__ {
-    display:inline-block;
+    display:inline-flex;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(255, 255, 255);
@@ -67,12 +67,17 @@ nav ul li a {
     top: 0px;
 }
 
+.la_web {
+    text-align: center;
+}
+
+.el_showroom {
+    text-align: center;
+}
+
 @media screen and (min-width: 320px) {
     body {
     background-color: #000000;
-    }
-    parrafop {
-        color:rgb(255, 255, 255);
     }
 }
 
