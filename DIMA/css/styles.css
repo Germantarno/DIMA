@@ -28,12 +28,12 @@ footer {
     width: 100vw;
 }
 
-nav ul {
+nav div {
     padding: 9px;
     text-align: center;
 }
 
-ul li {
+div li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 150px;
     margin-left: 200px;
